@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container-new{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1280px){
+.container-new {
+    max-width: 1280px;
+}
+}
+
+.py-6 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.px-3 {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
