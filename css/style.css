@@ -20,10 +20,16 @@
     font-size: 6vw;
 }
 
+.col3{
+    background-image: linear-gradient(to bottom right, rgb(23, 13, 63),rgb(0, 0, 0));
+    color: white;
+    display: block;
+}
+
 
 .col2 h1 b {
     margin-left: 100px;
-    text-align: left;
+    text-align: right;
     justify-content: flex-start;
     font-size: 9vw;
     line-height: 100%;
@@ -37,14 +43,34 @@
     /*text-shadow: 2px 2px 5px black;*/
 }
 
-.col3 {
-    text-align: center;
+.col3 h1 b{
+    margin-left: 100px;
+    text-align: right;
+    /*justify-content: flex-end;*/
+    font-size: 9vw;
+    line-height: 100%;
+    letter-spacing: -.07em;
     display: flex;
-    width: 30%;
-    height: 20%;
-    color: rgb(255, 255, 255);
-    background-color: black;
+    padding: 0px;
+    margin-top: 50px;
 }
+
+
+.col4 h1 b{
+    margin-right: 100px;
+    text-align: right;
+    justify-content: flex-end;
+    font-size: 9vw;
+    line-height: 100%;
+    letter-spacing: -.07em;
+    display: flex;
+    padding: 0px;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom right, rgb(234, 97, 188),rgb(44, 77, 239));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .navbar{
     background:none;
@@ -58,9 +84,7 @@
     margin-top: 100px;
 }
 
-.container2{
-    
-}
+
 
 .second-back{
     content: url(/img/second_right.png);
@@ -80,7 +104,7 @@
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1600px;
+    top: 1700px;
     width: 200px;
     height: 260px;
     z-index: 10;
@@ -89,7 +113,20 @@
     margin-right: 100px;
 }
 
-
+.fourth-back{
+    content: url(/img/fourth_back.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    max-width: 100%;
+    top: 2300px;
+    width: 200px;
+    height: 280px;
+    z-index: 10;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-left: 100px;
+}
 
 .container-new h1{
     color: white;
@@ -101,6 +138,8 @@ section{
     /*border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50%10%;*/
     display: block;
+    border-bottom: 0px;
+    border-color: aqua;
 }
 
 .pic {
@@ -153,6 +192,12 @@ section{
     
 @media only screen and (max-width: 960px){
     .third-back {
+        display: none;
+        }
+        }
+
+@media only screen and (max-width: 960px){
+    .fourth-back {
         display: none;
         }
         }
