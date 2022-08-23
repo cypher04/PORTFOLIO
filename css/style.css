@@ -6,6 +6,11 @@
     font-family: 'Mark Pro', sans-serif;
 }
 
+.new-c button{
+    
+    margin: 10px 0px 0px 10px;
+
+}
 
 .col{
     border-radius: 100px;
@@ -56,7 +61,7 @@
 }
 
 
-.col4 h1 b{
+.col4 h1 b a{
     margin-right: 100px;
     text-align: right;
     justify-content: flex-end;
@@ -110,7 +115,7 @@
     z-index: 10;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    margin-right: 100px;
+    margin-right: 400px;
 }
 
 .fourth-back{
@@ -119,13 +124,28 @@
     position: absolute;
     left: 0;
     max-width: 100%;
-    top: 2300px;
+    top: 2500px;
     width: 200px;
     height: 280px;
     z-index: 10;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     margin-left: 100px;
+}
+
+.fifth-back{
+    content: url(/img/fifth_back.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    top: 2930px;
+    width: 230px;
+    height: 300px;
+    z-index: 10;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    margin-right: 50px;
 }
 
 .container-new h1{
@@ -147,7 +167,7 @@ section{
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 100px;
+    top: 200px;
     max-width: 100%;
     width: 467px;
     height: 467px;
@@ -175,6 +195,15 @@ section{
     height: 30rem; 
 }
 
+.container-new img{ 
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 13rem; 
+    max-width: 100%; 
+    height: 22rem; 
+    margin-top: 80px;
+}
+
 @media only screen and (max-width: 960px){
 .container-new {
     
@@ -189,6 +218,28 @@ section{
        display: none;
         }
         }
+
+@media only screen and (max-width: 960px){
+    .headerr h1 b strong{
+        margin-top: 200px;
+        font-size: 50px;
+        }
+        }
+
+        
+
+@media only screen and (max-width: 960px){
+    .new-c {
+        text-align: center;
+        margin-top: 100px;
+        }
+        }
+
+@media only screen and (max-width: 960px){
+    form {
+        margin-top: 50px;
+        }
+        }
     
 @media only screen and (max-width: 960px){
     .third-back {
@@ -199,6 +250,15 @@ section{
 @media only screen and (max-width: 960px){
     .fourth-back {
         display: none;
+        }
+        }
+
+@media only screen and (max-width: 960px){
+    .fifth-back {
+        width: 130px;
+        height: 200px;
+        top: 3300px;
+        margin-right: 30px;
         }
         }
 
@@ -230,7 +290,7 @@ section{
 }
 
 .p-3{
-    margin: 20px;
+    margin: 10px;
     padding: 3rem;
 }
 
@@ -241,7 +301,7 @@ section{
 
 .text-center {
     text-align: center !important;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .d-flex {
@@ -267,21 +327,21 @@ section{
     
 }
 
-.headerr h1 b  {
+.headerr h1 b strong{
     /*background-image: linear-gradient(to bottom right, rgb(234, 97, 188),rgb(89, 147, 247));*/
     -webkit-background-clip: text;
    /* -webkit-text-fill-color: transparent;*/
-    font-size: 9vw;
+    font-size: 120px;
     line-height: 100%;
     letter-spacing: -.07em;
     display: flex;
     margin: 100px 100px;
     margin-top: 0px;
-    padding-top: 80px;
+    padding-top: 40px;
     position: relative;
     text-align: center;
-    padding-left: 0px;
-}
+    justify-content: center;
+   }
 
 
 
@@ -294,4 +354,50 @@ i.ri-compasses-2-fill{
 i.ri-lightbulb-flash-fill{
     font-size: 50px;
     color: rgb(232,3,104);
+}
+
+i.ri-briefcase-4-fill{
+    font-size: 50px;
+    color: rgb(249, 54, 115);
+}
+
+.headerr h2 span{
+    font-size: 50px;
+}
+
+form {
+    margin-top: 50px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+input[type=text]{
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);  
+  background: none;
+  color: white;
+  width: 200px;
+}
+
+textarea {
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.icons{
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+button .btn, .btn-dark{
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+}
+
+button{
+    border-radius: 50%;
 }
