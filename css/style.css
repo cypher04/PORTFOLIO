@@ -40,6 +40,7 @@
     margin-top: 50px;
     background-image: linear-gradient(to bottom right, rgb(234, 97, 188),rgb(44, 77, 239));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     /*text-shadow: 2px 2px 5px black;*/
 }
@@ -69,6 +70,7 @@
     margin-top: 50px;
     background-image: linear-gradient(to bottom right, rgb(234, 97, 188),rgb(44, 77, 239));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -323,9 +325,10 @@ section{
     
 }
 
-.headerr h1 b{
+.headerr h1 b strong{
     /*background-image: linear-gradient(to bottom right, rgb(234, 97, 188),rgb(89, 147, 247));*/
     -webkit-background-clip: text;
+    background-clip: text;
    /* -webkit-text-fill-color: transparent;*/
     font-size: 120px;
     line-height: 100%;
