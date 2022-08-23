@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 
 * {
     box-sizing: border-box;
@@ -25,6 +25,7 @@
     background-image: linear-gradient(to bottom right, rgb(23, 13, 63),rgb(0, 0, 0));
     color: white;
     display: block;
+    font-weight: bolder;
 }
 
 
@@ -43,6 +44,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     /*text-shadow: 2px 2px 5px black;*/
+    font-weight: bolder;
 }
 
 .col3 h1 b{
@@ -72,6 +74,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: bolder;
 }
 
 
@@ -340,6 +343,7 @@ section{
     position: relative;
     text-align: center;
     justify-content: center;
+    font-weight: bolder;
    }
 
 
