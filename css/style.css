@@ -6,11 +6,7 @@
     font-family: 'Mark Pro', sans-serif;
 }
 
-.new-c button{
-    
-    
 
-}
 
 .col{
     border-radius: 100px;
@@ -327,7 +323,7 @@ section{
     
 }
 
-.headerr h1 b strong{
+.headerr h1 b{
     /*background-image: linear-gradient(to bottom right, rgb(234, 97, 188),rgb(89, 147, 247));*/
     -webkit-background-clip: text;
    /* -webkit-text-fill-color: transparent;*/
