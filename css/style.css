@@ -228,16 +228,14 @@ section{
 }
 
 @media only screen and (max-width: 960px){
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 1fr);
-        gap: 5px;
-        grid-auto-rows: minmax(100px, auto);
-        padding: 10px;
-        flex-flow:column;
-        }
+    .third-grid {
+        grid-auto-flow: ;
+        
+                }
         }
 
+
+        
 @media only screen and (max-width: 960px){
     .second-back {
        display: none;
@@ -252,7 +250,20 @@ section{
         }
         }
 
-        
+@media only screen and (max-width: 760px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        }
+        }   
+
+@media only screen and (max-width: 760px){
+    .first-grid, .second-grid, .third-grid{
+        grid-column: auto;
+        grid-row: auto;
+        }
+        }  
+
 
 @media only screen and (max-width: 960px){
     .new-c {
@@ -465,29 +476,32 @@ button{
 
 .grid-container{
    display: grid;
-   grid-template-columns: repeat(3,1fr);
-   gap: 5px;
-   grid-auto-rows: minmax(100px, auto);
+   grid-template-columns: repeat(auto-fit , minmax(225px, 1fr));
+   gap: 10px;
+   grid-auto-rows: minmax(3, 200px);
    padding: 10px;
-   flex-flow:column;
+}
+
+.first-grid img, .second-grid img, .third-grid img{
+    position: relative;
 }
 
 .first-grid img{
     width: 650px;
     height: 420px;
-    position: relative;
+    box-sizing: border-box;
     border-radius: 15px;
 }
 
 .first-grid{
-    grid-column: 2 / 2;
+    grid-column: 3 / 3;
     grid-row: 1;
 }
 
 .second-grid img{
     width: 500px;
     height: 320px;
-    position: relative;
+    box-sizing: border-box;
     border-radius: 20px;
 }
 
@@ -499,8 +513,8 @@ button{
 .third-grid img{
     width: 300px;
     height: 210px;
-    position: relative;
     border-radius: 20px;
+    box-sizing: border-box;
     
 }
 
