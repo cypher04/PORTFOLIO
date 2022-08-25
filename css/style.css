@@ -110,13 +110,13 @@
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1700px;
+    top: 1500px;
     width: 200px;
     height: 260px;
     z-index: 10;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    margin-right: 400px;
+    margin-right: 100px;
 }
 
 .fourth-back{
@@ -125,7 +125,7 @@
     position: absolute;
     left: 0;
     max-width: 100%;
-    top: 2300px;
+    top: 2000px;
     width: 200px;
     height: 280px;
     z-index: 10;
@@ -140,7 +140,7 @@
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 2700px;
+    top: 2750px;
     width: 230px;
     height: 300px;
     z-index: 10;
@@ -162,6 +162,8 @@ section{
     border-bottom: 0px;
     border-color: aqua;
 }
+
+
 
 .pic {
     content: url(/img/back_1.png);
@@ -187,6 +189,19 @@ section{
     z-index: 10;
   }
 
+  .img-fluid{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0px;
+    height: 400px;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
 
 .container-new{ 
     margin-right: auto; 
@@ -208,7 +223,7 @@ section{
 @media only screen and (max-width: 960px){
 .container-new {
     
-    height: 20rem;
+    height: 10rem;
 }
 }
 
@@ -222,8 +237,9 @@ section{
 
 @media only screen and (max-width: 960px){
     .headerr h1 b strong{
-        margin-top: 200px;
-        font-size: 50px;
+        padding-top: 200px;
+        font-size: 50vw;
+        margin-bottom: 0px;
         }
         }
 
@@ -239,6 +255,7 @@ section{
 @media only screen and (max-width: 960px){
     form {
         margin-top: 50px;
+        margin-bottom: 50px;
         }
         }
     
@@ -258,10 +275,27 @@ section{
     .fifth-back {
         width: 130px;
         height: 200px;
-        top: 3300px;
+        top: 2400px;
         margin-right: 30px;
         }
         }
+
+
+@media only screen and (max-width: 960px){
+    .col2 h1 strong b{
+        margin-left: 10px;
+        margin-bottom: 80px;
+        font-size: 10vw;
+        }
+      }
+
+
+@media only screen and (max-width: 960px){
+.col4 h1 b a{
+    margin-right: 10px;
+    font-size: 9;
+    }
+    }
 
 @media only screen and (max-width: 960px){
     .pic {
@@ -291,8 +325,8 @@ section{
 }
 
 .p-3{
-    margin: 10px;
-    padding: 3rem;
+    margin: 2px;
+    padding: 1rem;
 }
 
 .px-3 {
@@ -302,7 +336,14 @@ section{
 
 .text-center {
     text-align: center !important;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.text-center img {
+    border-radius: 30px;
+    justify-content: flex-end;
+
 }
 
 .d-flex {
@@ -337,13 +378,18 @@ section{
     line-height: 100%;
     letter-spacing: -.07em;
     display: flex;
-    margin: 100px 100px;
+    margin: 50px 50px;
     margin-top: 0px;
-    padding-top: 40px;
+    padding-top: 10px;
     position: relative;
     text-align: center;
     justify-content: center;
     font-weight: bolder;
+    box-sizing: border-box;
+   }
+
+   .headerr h2{
+    margin: 20px 20px;
    }
 
 
@@ -372,6 +418,7 @@ form {
     margin-top: 50px;
     box-sizing: border-box;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 input[type=text]{
@@ -399,8 +446,56 @@ button .btn, .btn-dark{
     border: none;
     border-radius: 50%;
     width: 100px;
+    margin-bottom: 20px;
 }
 
 button{
     border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.grid-container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 5px;
+   grid-auto-rows: minmax(100px, auto);
+   padding: 10px;
+   flex-flow:column;
+}
+
+.first-grid img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.first-grid{
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+
+.second-grid img{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.second-grid{
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.third-grid img{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+    
+}
+
+.third-grid{
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
 }
