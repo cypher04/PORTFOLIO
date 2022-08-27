@@ -339,6 +339,14 @@ section{
     }
     }
 
+
+@media only screen and (max-width: 960px){
+    . {
+        display: none;
+    }
+    }
+
+
 .py-6 {
     padding-top: 40px !important;
     padding-bottom: 10px !important;
@@ -476,10 +484,12 @@ button{
 
 .grid-container{
    display: grid;
-   grid-template-columns: repeat(auto , minmax(3fr));
+   grid-template-columns: repeat(auto--fill , minmax(3, 1fr));
    gap: 10px;
-   grid-auto-rows: minmax(3fr);
+   grid-auto-rows: minmax(3fr, 400vh);
    padding: 10px;
+   overflow: hidden;
+   flex-wrap: wrap;
 }
 
 .first-grid img, .second-grid img, .third-grid img{
@@ -496,7 +506,7 @@ button{
 
 .first-grid{
     grid-column: 3 / 3;
-    grid-row: 1 / 2;
+    grid-row: 1 / 3;
 }
 
 .second-grid {
@@ -505,13 +515,13 @@ button{
     box-sizing: border-box;
     border-radius: 20px;
     background-color: rgb(194, 194, 195);
+    margin-top: 10%;
+    margin-left: 15%;
 }
 
 .second-grid{
     grid-column: 3 / 3;
-    grid-row: 1 / 3;
-    margin-top: 10%;
-    margin-left: 15%;
+    grid-row: 1 / 2;
 }
 
 .second-grid p{
@@ -550,4 +560,14 @@ button{
 .fourth-grid{
     grid-column: 2 / 2;
     grid-row: 3 / 3;
+}
+
+svg {
+    z-index: -20;
+    position: absolute;
+    display: block;
+    margin-left: 30%;
+    margin-top: 11%;
+    box-sizing: border-box;
+    
 }
