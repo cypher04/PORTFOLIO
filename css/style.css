@@ -478,7 +478,7 @@ button{
    display: grid;
    grid-template-columns: repeat(auto , minmax(2fr, 1fr));
    gap: 10px;
-   grid-auto-rows: minmax(1, 200px);
+   grid-auto-rows: minmax(1, 400px);
    padding: 10px;
 }
 
@@ -487,10 +487,11 @@ button{
 }
 
 .first-grid img{
-    width: 200px;
+    width: 220px;
     height: 110px;
     box-sizing: border-box;
     border-radius: 15px;
+    box-shadow: 2px 10px 30px;
 }
 
 .first-grid{
@@ -500,7 +501,7 @@ button{
 
 .second-grid {
     width: 300px;
-    height: 100px;
+    height: 200px;
     box-sizing: border-box;
     border-radius: 20px;
     background-color: rgb(194, 194, 195);
@@ -509,8 +510,12 @@ button{
 .second-grid{
     grid-column: 3 / 3;
     grid-row: 2 / 3;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 15%;
+}
+
+.second-grid p{
+    padding: 50px;
 }
 
 .third-grid{
