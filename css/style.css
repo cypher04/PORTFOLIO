@@ -504,18 +504,15 @@ button{
     .col-md-12 img{
         margin-left: 0em;
         position: relative;
-    }
-}
-
-@media only screen and (max-width: 960px){
-    .row{
-        padding: 40px; 
+        top: -100px;
     }
 }
 
 
 
-.container{
+
+
+.container1{
     padding: 50px;
 }
 
