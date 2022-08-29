@@ -502,10 +502,22 @@ button{
 
 @media only screen and (max-width: 960px){
     .col-md-12 img{
-        margin-left: 0px;
+        margin-left: 0em;
+        position: relative;
     }
 }
-    
+
+@media only screen and (max-width: 960px){
+    .row{
+        padding: 40px; 
+    }
+}
+
+
+
+.container{
+    padding: 50px;
+}
 
 
 .row{
@@ -514,6 +526,7 @@ button{
     box-sizing: border-box;
     margin-left: 50px;
     margin-right: 50px;
+    padding: auto;
 }
 
 .row .card1{
