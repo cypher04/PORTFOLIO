@@ -140,7 +140,7 @@
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 2250px;
+    top: 3360px;
     width: 230px;
     height: 300px;
     z-index: 10;
@@ -154,13 +154,17 @@
 }
 
 section{
+    /*background-image: url(/img/background_1.jpg);*/
     background-image: linear-gradient(to bottom right, rgb(23, 13, 63),rgb(0, 0, 0));
     color: white;
+    background-repeat: no-repeat;
     /*border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50%10%;*/
-    display: block;
+    display: relative;
     border-bottom: 0px;
     border-color: aqua;
+    max-width: 100%;
+    background-size: cover;
 }
 
 
@@ -295,7 +299,7 @@ section{
     .fifth-back {
         width: 130px;
         height: 200px;
-        top: 3700px;
+        top: 5900px;
         margin-right: 5px;
         }
         }
@@ -554,6 +558,9 @@ button{
     padding: 1em;
 }
 
+.col-md-3 img{
+    width: 100%;
+}
 
 
 
