@@ -387,7 +387,7 @@ section{
     height: 5.4em;
     z-index: 10px;
     justify-self: right;
-    box-shadow: 10px 20px 20px rgb(212, 211, 211);
+    /*box-shadow: 10px 20px 20px rgb(212, 211, 211);*/
 }
 
 .col-md-4{
