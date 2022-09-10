@@ -601,6 +601,7 @@ button{
 
 .hero-profile-img {
   height: 100%;
+
 }
 
 .hero-description-bk {
@@ -625,7 +626,7 @@ button{
   /*background-color: #fff;*/
   position: absolute;
   bottom: 30%;
-  left: 0px;
+  left: 30px;
   overflow:visible;
 }
 
@@ -688,7 +689,7 @@ body {
     margin: 50px;
 }
 
-@media only screen and (max-width: 460px){
+@media only screen and (max-width: 1000px){
     .projects {
         padding-left: 0;
         margin: 0;
