@@ -625,7 +625,7 @@ button{
   /*background-color: #fff;*/
   position: absolute;
   bottom: 30%;
-  left: 30px;
+  left: 0px;
   overflow:visible;
 }
 
