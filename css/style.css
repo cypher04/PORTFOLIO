@@ -691,6 +691,7 @@ body {
 @media only screen and (max-width: 960px){
     .projects {
         padding-left: 0%;
+        margin: 0%;
             }
         }
 
