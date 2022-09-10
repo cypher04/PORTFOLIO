@@ -110,7 +110,7 @@
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1500px;
+    top: 1350px;
     width: 200px;
     height: 260px;
     z-index: 10;
@@ -685,7 +685,7 @@ body {
 /*CARDS END*/
 
 .projects{
-    padding-left: 250px;
+    padding-left: 100px;
     margin: 50px;
 }
 
