@@ -688,7 +688,7 @@ body {
     margin: 50px;
 }
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 460px){
     .projects {
         padding-left: 0;
         margin: 0;
