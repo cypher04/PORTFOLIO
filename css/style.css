@@ -80,8 +80,9 @@
 }
 
 
-.navbar{
+.navbar .navbar-expand-lg .navbar-light .bg-light{
     background:none;
+    position: static;
 }
 
 
@@ -308,7 +309,7 @@ section {
 @media only screen and (max-width: 960px){
     .col2 h1 strong b{
         margin-left: 10px;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         font-size: 10vw;
         }
       }
@@ -370,6 +371,14 @@ section {
     text-align: center !important;
     padding-bottom: 5px;
     padding-top: 20px;
+}
+
+.text-center2 {
+    text-align: center !important;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    border-radius: 20px;
+    
 }
 
 .text-center img {
@@ -456,6 +465,13 @@ i.ri-briefcase-4-fill{
     font-size: 50px;
     color: rgb(249, 54, 115);
 }
+
+i.ri-suitcase-fill{
+    font-size: 30px;
+    color: rgb(180, 3, 171);
+}
+
+
 
 .headerr h2 span{
     font-size: 50px;
@@ -703,8 +719,43 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
+ }
+
+ .rad2 img{
+    border-radius: 30px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-color: white;
+    border-width: 7px;
+    border-style:solid;
+ }
+
+ .rad{
+    padding-left: 130px;
     
  }
+
+ @media only screen and (max-width: 960px){
+    .rad {
+        padding-left: 20px;
+        
+            }
+        }
+
+@media only screen and (max-width: 960px){
+    h6 .col-md-12 .rad3 {
+        padding-right: 0px;
+            }
+        }
+
+ .rad3{
+    text-align: right;
+    padding-right: 100px;
+    }
+
+ 
 
 
 
