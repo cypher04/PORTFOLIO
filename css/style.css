@@ -733,11 +733,10 @@ body {
  }
 
 
- .rad2 img::after{
-    content: url('/img/GRILL2.png');
-    position: absolute;
-    z-index: 10;
-    max-width: 100%;
+ .rad2 img:hover{
+    transform: translate(0%, -50px);
+    transition: .5s;
+    cursor: pointer;
  }
 
  .rad{
