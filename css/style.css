@@ -753,7 +753,7 @@ body {
         }
 
 @media only screen and (max-width: 960px){
-    h6 .col-md-12 .rad3 {
+    h6.col-md-12.rad3 {
         padding-right: 0px;
             }
         }
@@ -766,8 +766,8 @@ body {
 span.numbers{
     font-size: 40px;
     line-height: 100%;
-    letter-spacing: -.02em;
-    color: grey;
+    letter-spacing: -.07em;
+    color: rgb(205, 205, 205);
  }
 
 
