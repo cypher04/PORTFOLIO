@@ -732,6 +732,14 @@ body {
     border-style:solid;
  }
 
+
+ .rad2 img::after{
+    content: url('/img/GRILL2.png');
+    position: absolute;
+    z-index: 10;
+    max-width: 100%;
+ }
+
  .rad{
     padding-left: 130px;
     
@@ -755,7 +763,12 @@ body {
     padding-right: 100px;
     }
 
- 
+span.numbers{
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -.02em;
+    color: grey;
+ }
 
 
 
