@@ -94,30 +94,73 @@
 
 
 .second-back{
-    content: url(/img/second_right.png);
+    content: url(/img/back_5.png);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
     max-width: 100%;
-    top: 800px;
-    width: 200px;
-    height: 350px;
+    top: 600px;
+    width: 100px;
+    height: 200px;
     z-index: 10;
 }
 
+.first-back{
+    content: url(/img/back_4.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    max-width: 100%;
+    top: 200px;
+    width: 200px;
+    height: 100px;
+    z-index: 10;
+}
+
+.seventh-back{
+    content: url(/img/back_6.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    top: 1410px;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-right: 200px;
+}
+
 .third-back{
-    content: url(/img/third_back.png);
+    content: url(/img/back_6.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    top: 1450px;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-right: 300px;
+}
+
+.sixth-back{
+    content: url(/img/back_8.png);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
     max-width: 100%;
     top: 1350px;
-    width: 200px;
-    height: 260px;
+    width: 100px;
+    height: 100px;
     z-index: 10;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    margin-right: 100px;
+    margin-right: 300px;
 }
 
 .fourth-back{
@@ -149,6 +192,7 @@
     transform: scaleX(1);
     margin-right: 50px;
 }
+
 
 .container-new h1{
     color: white;
@@ -723,7 +767,7 @@ body {
  }
 
  .rad2 img{
-    border-radius: 30px;
+    border-radius: 10px;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -794,7 +838,7 @@ span.numbers{
 
 i.remix{
     font-size: 25px;
-    color: rgb(214, 215, 215);
+    color: rgb(185, 184, 184);
  }
 
 
