@@ -119,18 +119,18 @@
 }
 
 .seventh-back{
-    content: url(/img/back_6.png);
+    content: url(/img/back_9.png);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
     max-width: 100%;
     top: 1410px;
-    width: 100px;
+    width: 200px;
     height: 100px;
     z-index: 10;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    margin-right: 200px;
+    margin-right: 300px;
 }
 
 .third-back{
@@ -154,7 +154,7 @@
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1350px;
+    top: 1390px;
     width: 100px;
     height: 100px;
     z-index: 10;
