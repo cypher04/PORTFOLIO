@@ -126,7 +126,7 @@
     position: absolute;
     left: 0;
     max-width: 100%;
-    top: 2000px;
+    top: 2100px;
     width: 200px;
     height: 280px;
     z-index: 10;
@@ -141,7 +141,7 @@
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 3250px;
+    top: 3500px;
     width: 230px;
     height: 300px;
     z-index: 10;
@@ -518,14 +518,15 @@ button{
 }
 
 
-/*svg {
-    z-index: -20;
+svg {
+    z-index: 20;
     position: absolute;
     display: block;
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: 11%;
     box-sizing: border-box;
-}*/
+    top: 260px;
+}
 
 
 
@@ -730,12 +731,13 @@ body {
     border-color: white;
     border-width: 7px;
     border-style:solid;
+    position: relative;
  }
 
 
- .rad2 img:hover{
-    transform: translate(0%, -50px);
-    transition: .5s;
+ img.shadow:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
     cursor: pointer;
  }
 
@@ -766,12 +768,34 @@ body {
     }
 
 span.numbers{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 100%;
     letter-spacing: -.07em;
     color: rgb(205, 205, 205);
  }
 
+.overlay{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #08da4e;
+    transform: translate 0.3s ease;
+ }
+
+.rad2{
+    position: relative;
+ }
+
+
+i.remix{
+    font-size: 25px;
+    color: rgb(214, 215, 215);
+ }
 
 
 
