@@ -850,3 +850,9 @@ i.remix{
     margin-left: 50px;
 }
 
+@media only screen and (max-width: 960px){
+    .navbar-brand {
+        margin-left: 0%;
+        
+            }
+        }
