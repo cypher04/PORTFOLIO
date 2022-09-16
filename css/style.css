@@ -841,6 +841,12 @@ i.remix{
     color: rgb(185, 184, 184);
  }
 
+.navbar-brand img{
+ width: 100px;
+ height: 40px;
+}
 
-
+.navbar-brand{
+    margin-left: 50px;
+}
 
