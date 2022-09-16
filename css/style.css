@@ -850,6 +850,12 @@ i.remix{
     margin-left: 50px;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);}
+
 @media only screen and (max-width: 960px){
     .navbar-brand {
         margin-left: 0;
