@@ -49,6 +49,11 @@
     font-weight: bolder;
 }
 
+h4.col-md-6.rad{
+    padding-left: 110px;
+    padding-top: 50px;
+}
+
 .col3 h1 b{
     margin-left: 100px;
     text-align: right;
@@ -851,7 +856,7 @@ i.remix{
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light{
-    position: sticky;
+    position: none;
     top: 0;
     z-index: 100;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);}
