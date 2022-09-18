@@ -136,7 +136,7 @@ h4.col-md-6.rad{
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1410px;
+    top: 1620px;
     width: 200px;
     height: 100px;
     z-index: 10;
@@ -151,7 +151,7 @@ h4.col-md-6.rad{
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1370px;
+    top: 1530px;
     width: 200px;
     height: 100px;
     z-index: 10;
@@ -166,7 +166,7 @@ h4.col-md-6.rad{
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1390px;
+    top: 1580px;
     width: 100px;
     height: 100px;
     z-index: 10;
@@ -181,7 +181,7 @@ h4.col-md-6.rad{
     position: absolute;
     left: 0;
     max-width: 100%;
-    top: 2000px;
+    top: 2100px;
     width: 380px;
     height: 180px;
     z-index: 10;
@@ -298,7 +298,7 @@ section {
 
         
 @media only screen and (max-width: 960px){
-    .second-back {
+    .second-back, .sixth-back, .seventh-back {
        display: none;
         }
         }
@@ -573,20 +573,6 @@ button{
     border-radius: 50%;
     margin-bottom: 20px;
 }
-
-
-svg {
-    z-index: 20;
-    position: absolute;
-    display: block;
-    margin-left: 10%;
-    margin-top: 11%;
-    box-sizing: border-box;
-    top: 260px;
-}
-
-
-
 
 
 @media only screen and (max-width: 960px){
@@ -878,3 +864,18 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light{
        
             }
         }
+
+i.ri-vuejs-fill,i.bi.bi-bootstrap-fill,i.ri-html5-fill,i.ri-css3-fill{
+    font-size: 40px;
+    padding: 10px;
+   }
+
+svg{
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+
+.col-icons{
+    text-align:  center;
+    opacity: 0.5;
+}
