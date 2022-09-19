@@ -58,6 +58,7 @@ h4.col-md-6.rad{
 h4.col-md-6.rad{
     padding-left: 10px;
     padding-top: 50px;
+    margin: 20px;
 }
 }
 
@@ -74,7 +75,7 @@ h4.col-md-6.rad{
 }
 
 
-.col4 h1 b a{
+.col4 h1 b{
     margin-right: 100px;
     text-align: right;
     justify-content: flex-end;
@@ -367,14 +368,17 @@ section {
         margin-left: 10px;
         margin-bottom: 0px;
         font-size: 10vw;
+        justify-content: center;
         }
       }
 
 
 @media only screen and (max-width: 960px){
-.col4 h1 b a{
+.col4 h1 b{
     margin-right: 10px;
     font-size: 9;
+    justify-content: center;
+    text-align: center;
     }
     }
 
@@ -782,7 +786,9 @@ body {
     .rad {
         padding-left: 20px;
         margin-right: 80px;
-        
+        text-align: center;
+        justify-content: center;
+        margin: 20px;
             }
         }
 
