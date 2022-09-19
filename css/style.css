@@ -162,14 +162,14 @@ h4.col-md-6.rad{
 }
 
 .sixth-back{
-    content: url(/img/back_6.png);
+    content: url(/img/brief.png);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 1580px;
-    width: 100px;
-    height: 100px;
+    top: 1530px;
+    width: 180px;
+    height: 140px;
     z-index: 10;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -177,13 +177,13 @@ h4.col-md-6.rad{
 }
 
 .fourth-back{
-    content: url(/img/back_10.png);
+    content: url(/img/graph.png);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
     max-width: 100%;
     top: 2100px;
-    width: 380px;
+    width: 250px;
     height: 180px;
     z-index: 10;
     -webkit-transform: scaleX(-1);
@@ -192,18 +192,18 @@ h4.col-md-6.rad{
 }
 
 .fifth-back{
-    content: url(/img/fifth_back.png);
+    content: url(/img/shake.png);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 2800px;
-    width: 230px;
-    height: 300px;
+    top: 2900px;
+    width: 250px;
+    height: 200px;
     z-index: 10;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 
