@@ -10,4 +10,15 @@ window.addEventListener('load', () => {
   aos_init();
 });
 
+// form validation //
+
+const note = document.querySelector(".sub");
+
+
+note.addEventListener('onClick', onSubmit);
+
+function onSubmit(){
+  alert("Thank you for Contacting me");
+}
+
  
