@@ -461,7 +461,7 @@ section {
         }
 
 @media only screen and (max-width: 600px){
-           .headerr h1 b {
+           .headerr h3 b {
             margin: 50px 50px;
             margin-top: 0px;
             padding-top: 10px;
@@ -560,7 +560,7 @@ section {
     
 }
 
-.headerr h1 b strong{
+.headerr h3 b strong{
     /*background-image: linear-gradient(to bottom right, rgb(234, 97, 188),rgb(89, 147, 247));*/
     -webkit-background-clip: text;
     background-clip: text;
