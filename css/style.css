@@ -222,7 +222,7 @@ h4.col-md-6.rad{
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 3130px;
+    top: 3210px;
     z-index:1;
 }
 
@@ -300,11 +300,11 @@ h4.col-md-6.rad{
 section {
     /*background-image: url(/img/background_1.jpg);*/
     background-image: linear-gradient(to bottom right, rgb(23, 13, 63),rgb(0, 0, 0));
-    color: white;
-    background-repeat: no-repeat;
+    color: #fff;
+    background-repeat: repeat;
     /*border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50%10%;*/
-    display: relative;
+    display: absolute;
     border-bottom: 0px;
     border-color: aqua;
     max-width: 100%;
@@ -342,17 +342,14 @@ section {
   .img-fluid{
     box-sizing: border-box;
     position: relative;
-    margin: 0px;
+    margin-top: 0px;
     height: 400px;
     width: 220px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-
   
-
-
 .container-new{ 
     margin-right: auto; 
     margin-left: auto; 
@@ -576,7 +573,7 @@ section {
     line-height: 100%;
     letter-spacing: -.03em;
     display: flex;
-    margin: 50px 50px;
+    margin: 100px 100px;
     margin-top: 0px;
     padding-top: 10px;
     position: relative;
