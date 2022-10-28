@@ -460,9 +460,8 @@ section {
             }
         }
 
-@media only screen and (max-width: 600px){
-           .headerr h3 b {
-            margin: 50px 50px;
+@media only screen and (max-width: 960px){
+           .headerr h3 b strong {
             margin-top: 0px;
             padding-top: 10px;
             margin-bottom: 0px;
