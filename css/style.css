@@ -574,7 +574,8 @@ section {
     letter-spacing: -.03em;
     display: flex;
     margin: 100px 100px;
-    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-top: 40px;
     padding-top: 10px;
     position: relative;
     text-align: center;
