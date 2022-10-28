@@ -571,9 +571,8 @@ section {
     display: flex;
     margin: 50px 50px;
     margin-top: 0px;
-    margin-bottom: 10px;
     padding-top: 10px;
-    position:;
+    position: relative;
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
