@@ -1,6 +1,35 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 
+::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    width: calc(2px * 2);
+    border: 2px solid rgba(26, 26, 26, 0);
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background: transparent;
+    width: calc(2px / 2);
+    border: 2px solid rgba(26, 26, 26, 0);
+  }
+  
+
+
 * {
     box-sizing: border-box;
     --font-family: 'Mark Pro', sans-serif;
@@ -901,7 +930,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light{
 @media only screen and (max-width: 960px){
     .navbar-brand,nav.navbar.navbar-expand-lg.navbar-light.bg-light {
         margin-left: 0;
-        position: sticky;
+        position: none;
         top: 0;
         z-index: 100;
        
@@ -932,4 +961,16 @@ img.emailpic{
     width: 30%;
     height: 30%;
     margin: auto;
+}
+
+.navbar{
+    line-height: 0;
+}
+
+.text-black{
+    color: #000000;
+}
+
+.navbar.fixed-top{
+    position: absolute;
 }

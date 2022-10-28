@@ -14,32 +14,43 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <!<img src="/img/logo_main.png" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <!--<ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>-->
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">seyi.dev</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#graphics">Graphics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projects">Web-Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <section class="shadow style">
         <div class="container-1">        
@@ -73,7 +84,7 @@
       </div>
     </div>
     
-      <div class="container">
+      <div class="container" id="about">
         <div class="row align-items-center">
             <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
                 <div class="shadow p-3 mb-5 bg-body rounded">
@@ -111,7 +122,7 @@
       
 
 
-    <div class="col2" data-aos="fade-right">
+    <div class="col2" data-aos="fade-right" id="projects">
       <h1><strong><b>View my <br> Projects</b></strong></h1>
       <h6 class="col-md-6 rad">Comprises of self-led and Collaborated projects <span>&#128188;</span></h6>
     </div>
@@ -128,7 +139,7 @@
         <div class="col-md-4 col-sm-6 rad2">
           <div class="p-3 rounded" data-aos="fade-up">
             <span class="numbers"><b><strong></strong></b></span>
-            <img class="shadow" src="/img/Arcadia_4.jpg" alt="" >
+            <a href="https://angryvikings.netlify.app" target="blank"><img class="shadow" src="/img/angryvikings.jpg" alt="" ></a>
             <!--<i class="remix ri-github-fill"></i>
             <i class="remix ri-linkedin-box-fill"></i>-->
           </div>
@@ -148,7 +159,7 @@
         <div class="col-md-4 col-sm-6 rad2">
           <div class="p-3 rounded" data-aos="fade-up">
            <span class="numbers"><b><strong></strong></b></span>
-          <img class="shadow" src="/img/branddever.jpg" alt="">
+          <a href="http://www.branddever.com" target="blank"><img class="shadow" src="/img/branddever.jpg" alt=""></a>
           <!--<i class="remix ri-github-fill"></i>
           <i class="remix ri-linkedin-box-fill"></i>-->
         </div>
@@ -159,7 +170,7 @@
 
   
 
-        <div class="col4">
+        <div class="col4" id="graphics">
           <h1 data-aos="fade-right"><strong><b>Graphic<br> Design</b></strong></h1>
           <!--<h6 class="col-md-12 rad3"><span>&#128640;</span>Comprises of self-led and Collaborated projects </h6>-->
         </div>
@@ -210,7 +221,7 @@
 
   
 
-  <div class="col2" data-aos="fade-up">
+  <div class="col2" data-aos="fade-up" id="contact">
     <h1 ><strong><b>What's Next?</b></strong></h1>
     <h4 class="col-md-6 rad"> <b> Hook me up! </b><span>&#129305;</span> I'm currently available for hire and would be pleased to work on your next project<span>&#129309;</span></h4>
   </div>
@@ -239,7 +250,7 @@
 
               <label for="message">Message</label> <br><br>
               <textarea name="message" id="" cols="23" rows="3"></textarea> <br>
-              <button type="submit"  class="sub" class="btn btn-light"> <a href="http://127.0.0.1:5500/thank_you.html"> Send</a></button>
+              <button type="submit"  class="sub" class="btn btn-light"> <a href="http://127.0.0.1:5501/thank_you.html"> Send</a></button>
             </form>
           </div>
         </div>
