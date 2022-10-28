@@ -383,13 +383,6 @@ section {
         }
         }
 
-@media only screen and (max-width: 960px){
-    .headerr h1 b strong{
-        padding-top: 10px;
-        font-size: 200vw;
-        }
-        }
-
 @media only screen and (max-width: 760px){
     .grid-container{
         grid-template-columns: 1fr;
@@ -469,7 +462,7 @@ section {
 
 @media only screen and (max-width: 600px){
            .headerr h1 b {
-            margin: 10px;
+            margin: 50px 50px;
             margin-top: 0px;
             padding-top: 10px;
             margin-bottom: 0px;
@@ -477,11 +470,6 @@ section {
         }
         }
 
-@media only screen and (max-width: 600px){
-    .headerr h1{
-        padding: 0px;
-    }
-    }
 
 @media only screen and (max-width: 960px){
     .pic2 {
@@ -584,10 +572,9 @@ section {
     margin: 50px 50px;
     margin-top: 0px;
     padding-top: 10px;
-    position: relative;
+    position: absolute;
     text-align: center;
     justify-content: center;
-    font-weight: bolder;
     box-sizing: border-box;
    }
 
