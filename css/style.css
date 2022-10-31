@@ -928,6 +928,13 @@ img.navbar-brand{
  height: 50px;
 }
 
+@media only screen and (max-width:960px) {
+    img.navbar-brand{
+        width: 70px;
+        height: 40px;
+    }
+}
+
 .navbar-brand{
     margin-left: 50px;
 }
