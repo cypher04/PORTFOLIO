@@ -205,16 +205,19 @@ h4.col-md-6.rad{
     right: 0;
     max-width: 100%;
     top: 0px;
-    z-index: ;
 }
 
 @media only screen and (max-width: 960px){
     .eight-back{
-        display: none;
-        padding-top: 250px;
-        
+        content: url(/img/mob_2.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 10px;
+        width: 60px;
+        height: 50px;
+        top: 250px;
     }
-    }
+}
 
 .ninth-back{
     content: url(/img/back2.png);
@@ -232,6 +235,18 @@ h4.col-md-6.rad{
     }
     }
 
+
+@media only screen and (max-width: 960px){
+    .tenth-back{
+        content: url(/img/mob_1.png);
+        background-repeat: no-repeat;
+        left: 10px;
+        position: absolute;
+        top: 500px;
+        width: 60px;
+        height: 50px;
+    }
+}
 
 .third-back{
     content: url(/img/back_9.png);
