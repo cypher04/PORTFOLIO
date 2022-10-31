@@ -930,8 +930,8 @@ img.navbar-brand{
 
 @media only screen and (max-width:960px) {
     img.navbar-brand{
-        width: 70px;
-        height: 40px;
+        width: 90px;
+        height: 50px;
     }
 }
 
