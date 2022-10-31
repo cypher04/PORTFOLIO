@@ -923,9 +923,9 @@ i.remix{
     color: rgb(185, 184, 184);
  }
 
-.navbar-brand img{
- width: 100px;
- height: 40px;
+img.navbar-brand{
+ width: 120px;
+ height: 50px;
 }
 
 .navbar-brand{
