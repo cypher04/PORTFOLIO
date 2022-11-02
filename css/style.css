@@ -225,7 +225,7 @@ h4.col-md-6.rad{
     position: absolute;
     right: 0;
     max-width: 100%;
-    top: 3210px;
+    top: 3150px;
     z-index:1;
 }
 
@@ -661,6 +661,7 @@ textarea {
 
 .icons a {
     text-decoration: none;
+    color: white;
 }
 
 .icons:hover{

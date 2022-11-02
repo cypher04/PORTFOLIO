@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+   <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
     <link href="http://fonts.cdnfonts.com/css/mark-pro" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">   
-    <title>Seyi Dev</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kursor@0.1.6/dist/kursor.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css">
+    <title>Abiodun Seyi-Frontend Developer</title>
 </head>
 <body>
 
@@ -39,9 +42,25 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#graphics">Graphics</a>
+          
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
           </li>
+
           <li class="nav-item">
             <a class="nav-link text-white" href="#projects">Web-Projects</a>
           </li>
@@ -92,26 +111,17 @@
                   <i class="ri-compasses-2-fill"></i>
                 <p> 
                     <h1><strong>Design</strong></h1>
-                    Completely negotiate magnetic leadership
-                    is-a-vis error-free benefits. Progressively
-                    simplify principle-centered partnerships for
-                    quality processes. Credibly deploy high standards'
-                     in materials before next-generation methodologies.
-                      Proactively orchestrate.
+                    As a graphics and CAD designer for over a decade now, I have been able to work on various projects that have sharpened my skill in the aspect of using colors, shapes etc. Applying these skills to web development is just seamless.
+                    I Design fluent User Experience and interface, tweaking stylesheets and engineering each component.
                 </p>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
-                <div class="shadow p-3 mb-5 bg-body rounded">
+                <div class="shadow p-3 mb-5 bg-body rounded"> 
                   <i class="ri-lightbulb-flash-fill"></i>
                 <p>
                     <h1><strong>Creativity</strong></h1>
-                    Completely negotiate magnetic leadership
-                    is-a-vis error-free benefits. Progressively
-                    simplify principle-centered partnerships for
-                    quality processes. Credibly deploy high standards'
-                     in materials before next-generation methodologies.
-                      Proactively orchestrate.
+                    Each project comes as an opportunity to explore creativity and innovation in-depth. I integrate series of designs, markup languages, frameworks and scripts, Equipped with the necessary technologies to build creative and scalable web applications that produce good user experience. 
                 </p>
                 </div>
             </div>
@@ -236,9 +246,9 @@
             <h1><strong><b>Contact</b></strong></h1>
             <div class="icons">
               <a href="www.linkedin.com/in/seyiabiodun"><i class="ri-linkedin-box-fill"></i></a>
-              <i class="ri-github-fill"></i>
+              <a href="https://github.com/cypher04"><i class="ri-github-fill"></i></a>
               <i class="ri-instagram-fill"></i>
-              <i class="ri-smartphone-fill"></i>
+              <a href="tel:+2349057426183"><i class="ri-smartphone-fill"></i></a>
               <h6>Developed by Abiodun Seyi</h6>
               <h6>&copy; 2022</i></h6>
             </div>
@@ -259,19 +269,19 @@
     </div>
     <div class="ninth-back"></div>
   </section>
-
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
   <script type="text/javascript" src="/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/kursor@0.1.6/dist/kursor.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script>
-   AOS.init({
-    duration: 1000,
-    easing: "ease-in-out",
-    once: true,
-    mirror: false
-  });
+  new kursor({
+    type: 1,
+    color: '#808080'
+  })
 </script>
 
 

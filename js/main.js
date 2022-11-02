@@ -24,6 +24,8 @@ function onSubmit(){
 var nav = document.querySelector('nav');
 const navv = document.querySelectorAll("a.nav-link.text-white");
 
+//----------navbar-scroll----------//
+
       window.addEventListener('scroll', function () {
         if (window.pageYOffset > 100) {
           nav.classList.add('bg-dark', 'shadow');
@@ -31,5 +33,11 @@ const navv = document.querySelectorAll("a.nav-link.text-white");
           nav.classList.remove('bg-dark', 'shadow');   
         }
       });
+
+//----------kursor-------------//
+new kursor({
+    type: 1,
+    color: '#476582'
+  });
 
  
